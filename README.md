@@ -1,46 +1,98 @@
-# 👋 Hi, I'm Jessica Obeng
+# 🧴 Skin Scanner App
 
-### 🌟 Frontend Developer & UI/UX Designer  
-I'm passionate about turning beautiful UI designs into responsive, accessible, and functional web apps. Currently building **Di Dwa**, a modern grocery delivery platform.
-
----
-
-## 🔧 Tech Stack
-
-![React](https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=white)
-![TailwindCSS](https://img.shields.io/badge/-TailwindCSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white)
-![Vite](https://img.shields.io/badge/-Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
-![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![Figma](https://img.shields.io/badge/-Figma-F24E1E?style=flat-square&logo=figma&logoColor=white)
+The **Skin Scanner App** is a mobile application built with **React Native (Expo)** that enables users to take a photo of their face or body to detect their **skin color** and **skin type**, receive a **daily personalized skincare routine**, and **book an appointment with a doctor** if needed. It's designed to be simple, inclusive, and helpful for users of all genders and skin tones.
 
 ---
 
-## 📌 Featured Project: Di Dwa  
-![Di Dwa Logo](https://github.com/obengjessica/obengjessica/blob/main/assets/Dei-Dwa-logo1.png)
+## ✨ Features
 
-An intuitive grocery e-commerce platform:
-- 🛒 Custom navbar & search
-- 📱 Responsive UI
-- 📦 Product filtering & ordering
+- 📸 **Skin Scanner**
+  - Use your phone’s camera or gallery to scan your skin
+  - Automatically detects your skin tone and skin type
 
-👉 [See on GitHub](https://github.com/obengjessica/di-dwa)
+- 🧬 **Personalized Routine Generator**
+  - Get custom skincare recommendations tailored to your skin data
+- 📅 **Book an Appointment**
+  - Get to meet a skin doctor on one and discuss any issue affecting your skin
 
----
+- 📅 **Daily Routine View**
+  - Morning and evening skincare steps organized by skin type
 
-## 📈 GitHub Stats
-
-![Jessica's GitHub stats](https://github-readme-stats.vercel.app/api?username=obengjessica&show_icons=true&theme=tokyonight)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=obengjessica&layout=compact&theme=tokyonight)
-
----
-
-## 🌐 Connect with Me
-
-- 📧 Email: jaobeng018@st.ug.edu.gh  
-- 💼 LinkedIn: [Your LinkedIn link here]  
-- 🧑‍💻 Portfolio: Coming Soon  
-- 🔗 [Visit My Projects](https://github.com/obengjessica?tab=repositories)
+- 💬 **Clean & Friendly UI**
+  - Built with simplicity in mind for all users
 
 ---
 
-*“I build with love and code with purpose.” 💛*
+## 🛠 Tech Stack
+
+- **Framework:** React Native with Expo
+- **Language:** JavaScript / TypeScript
+- **Image Processing:** TensorFlow.js *(or your chosen model, if applicable)*
+- **State Management:** useState / useContext *(or Redux, if used)*
+- **Navigation:** React Navigation
+- **Styling:** Tailwind CSS for RN *(e.g., NativeWind)* or custom styles
+- **Platform:** Android & iOS
+
+---
+
+## 📸 Screenshots
+
+> _Add real screenshots of the app below_
+
+| Scanner Screen | Result Page | Skincare Routine |
+|----------------|-------------|------------------|
+| ![](./assets/screenshots/scanner.png) | ![](./assets/screenshots/result.png) | ![](./assets/screenshots/routine.png) |
+
+---
+
+## 🚀 Getting Started
+
+### 📦 Prerequisites
+
+- Node.js ≥ 16.x
+- Expo CLI (`npm install -g expo-cli`)
+- Expo Go app on your phone (for testing)
+- Android Studio / Xcode (for emulator or iOS testing)
+
+## 📂 Project Structure
+/assets              -> Images and icons
+/components          -> Reusable UI components
+/screens             -> App screens (Home, Scanner, Results, Routine)
+/context             -> App-wide state/context
+/utils               -> Helper functions and skin analysis logic
+App.js               -> Entry point
+
+## 📌 Future Plans
+ Save skin scans to history
+
+ User accounts and profiles
+
+ Product recommendations (based on skin data)
+
+ AI-based analysis improvement
+ 
+ Push notifications for routine reminders
+
+ Dark/light theme support
+
+## 🙋‍♀️ Author
+Obeng Jessica Afriyie
+Full-Stack Developer
+Co-founder - Jezzerr Labs
+📧 blaqluv@gmail.com
+🌐 LinkedIn - www.linkedin.com/in/obeng-jessica-afriyie-1375aa329
+
+## 📄 License
+This project is licensed under the MIT License.
+
+## 💖 Contributions, issues, and feedback are welcome!
+
+
+### 🧑‍💻 Installation
+
+```bash
+git clone https://github.com/your-username/skin-scanner-app.git
+cd skin-scanner-app
+npm install
+
+
