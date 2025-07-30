@@ -37,7 +37,6 @@ The **Skin Scanner App** is a mobile application built with **React Native (Expo
 
 ## 📸 Screenshots
 
-> _Add real screenshots of the app below_
 
 | Scanner Screen | Result Page | Skincare Routine |
 |----------------|-------------|------------------|
